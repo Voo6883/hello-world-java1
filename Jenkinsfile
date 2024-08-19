@@ -1,8 +1,5 @@
 pipeline {
     agent any
-    tools {
-        gradle 'Gradle 7.6.1' // Replace with the name of your Gradle installation
-    }
     stages {
         stage('Checkout') {
             steps {
